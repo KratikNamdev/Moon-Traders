@@ -634,8 +634,8 @@ html{
 .discount-con .discount-image2 {
     margin-bottom: 30px;
 }
-.discount-con .content2 {
-    width: 35%;
+.discount-con .img-fluid {
+    width: 100%;
     top: 50px;
     right: 30px;
     position: absolute;
@@ -4124,4 +4124,13 @@ to {
 }
 .nav-logo{
     width: 100px;
+}
+.whatsapp-icon{
+    width: 70px;
+    height: 70px;
+    line-height: 40px;
+    position: fixed;
+    z-index: 100;
+    bottom: 50px;
+    right: 50px;
 }
