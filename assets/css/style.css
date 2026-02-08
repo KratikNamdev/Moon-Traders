@@ -4146,3 +4146,41 @@ to {
     right: 20px;
 }
 }
+.upbanner{
+    position: relative;
+    background-image: url('../images/post-featured4.jpg') !important;
+    background-position: center;
+    background-size: cover;
+}
+/* Overlay */
+.upbanner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.527); /* overlay color */
+    z-index: 1;
+}
+
+/* Content ko overlay ke upar lane ke liye */
+.upbanner .banner-overlay {
+    position: relative;
+    z-index: 2;
+}
+.faq-upbanner{
+    background-image: url(../images/post-featured2.jpg) !important;
+}
+.product-upbanner{
+    background-image: url(../images/post-featured.jpg) !important;
+}
+.contact-banner{
+    background-image: url(../images/post-featured3.jpg) !important;
+}
+.nav-button{
+    background-color: #FB704F;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
