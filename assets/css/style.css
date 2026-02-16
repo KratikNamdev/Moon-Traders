@@ -4184,3 +4184,26 @@ to {
     color: white;
     padding: 10px 20px;
 }
+.bed-back{
+    background-image: url(../images/bed.webp) !important;
+}
+.bedside{
+    background-image: url(../images/bedside.jpg) !important;
+
+}
+.cofetable{
+    background-image: url(../images/Coffee\ Table.jpg) !important;
+
+}
+.Dinningchair{
+    background-image: url(../images/Dinning\ Chairs.jpg) !important;
+
+}
+.TV{
+    background-image: url(../images/tvunitbanner.jpg) !important;
+
+}
+.Wardrobe{
+    background-image: url(../images/alm.jpg) !important;
+
+}
