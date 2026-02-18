@@ -4189,11 +4189,11 @@ to {
     background-image: url(../images/bed.webp) !important;
 }
 .bedside{
-    background-image: url(../images/bedside.jpg) !important;
+    background-image: url(../images/a.webp) !important;
 
 }
 .cofetable{
-    background-image: url(../images/Coffee\ Table.jpg) !important;
+    background-image: url(../images/cof.jpg) !important;
 
 }
 .Dinningchair{
@@ -4206,5 +4206,13 @@ to {
 }
 .Wardrobe{
     background-image: url(../images/alm.jpg) !important;
+
+}
+.officetable{
+    background-image: url(../images/officetable.jpg) !important;
+
+}
+.Drawer{
+    background-image: url(../images/drawer.jpg) !important;
 
 }
