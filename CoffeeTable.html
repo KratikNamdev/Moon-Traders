@@ -780,6 +780,15 @@ Furniture crafted to bring elegance and comfort into your everyday life.
 <script src="assets/js/search.js"></script>
 <script src="assets/js/country_dropdown.js"></script>
 <script src="assets/js/filter-button.js"></script>
+<script>
+  document.querySelectorAll('.feature-box').forEach(function(box) {
+    box.style.cursor = "pointer"; // pointer cursor
+
+    box.addEventListener('click', function() {
+      window.open("https://api.whatsapp.com/send?phone=918209730372", "_blank");
+    });
+  });
+</script>
 </body>
 
 <!-- Mirrored from html.designingmedia.com/contrive/shop.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Dec 2025 06:01:32 GMT -->

@@ -1185,7 +1185,7 @@ html{
 /* Testimonial */
 
 .testimonial-con{
-    padding: 135px 0 206px;
+    padding: 135px 0 10px;
     background-color: var(--e-global-color-white);
 }
 .testimonial-con .testimonial_content h6 {
@@ -2778,7 +2778,7 @@ html{
 /* Follow */
 
 .follow-con {
-    padding: 135px 0 230px;
+    padding: 50px 0 50px;
     background-color: var(--e-global-color-white);
 }
 .follow-con .follow_content h6 {
@@ -4215,4 +4215,39 @@ to {
 .Drawer{
     background-image: url(../images/drawer.jpg) !important;
 
+}
+
+.banner-image2{
+    width: 80%;
+    margin-top: 150px !important;
+    
+}
+
+@media(max-width:768px){
+    
+.banner-image2{
+    width: 100%;
+    margin-top: 10px !important;
+    
+}
+}
+
+
+.gallery-item {
+    width: 100%;
+    height: 250px; /* same height for all */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* magic line */
+    transition: 0.3s ease;
+    margin-top: 15px;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
 }
